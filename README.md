@@ -1,9 +1,5 @@
 # Swift-Absolute-Beginners
 
-# iOS Small Projects Collection
-
-## Projects Included
-
 ### 1. **Func (Function)**
 A simple project to demonstrate the creation and usage of functions in Swift. Learn how to define functions, pass parameters, and return values.
 
@@ -28,8 +24,4 @@ This project shows how to use a button to navigate between view controllers in a
 ### 8. **Pass Data from One VC to Another**
 A demonstration of how to pass data between view controllers. Data is transferred using properties or the `prepare(for:sender:)` method before transitioning between views.
 
-## How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/your-project-repo.git
+# Swift-Absolute-Beginners(part 2)
