@@ -25,3 +25,23 @@ This project shows how to use a button to navigate between view controllers in a
 A demonstration of how to pass data between view controllers. Data is transferred using properties or the `prepare(for:sender:)` method before transitioning between views.
 
 # Swift-Absolute-Beginners(part 2)
+
+### 9. **Enumeration**
+## When to Use Enums?
+Enums are useful in the following scenarios:
+
+1. State Representation: For representing states like Pending, Processing, Completed.
+2. Directions or Movement: For representing directions such as Up, Down, Left, Right.
+3. Error Codes or Response Status: For managing response codes, such as Success, Error, Timeout.
+4. Flags and Bitwise Operations: If you have several boolean-like flags (e.g., Read, Write, Execute), enums can be useful when combined with bitwise operators.
+## Key Differences Between Enums With and Without Type
+
+| **Aspect**                 | **Enum Without Type**              | **Enum With Type**              |
+|----------------------------|------------------------------------|---------------------------------|
+| **Default Value**           | Numeric values starting from `0`   | Custom values (string, number)  |
+| **Type**                    | `number`                           | Custom (e.g., `string`)         |
+| **Assignment**              | Values are automatically assigned, starting from `0` | You must explicitly set the value for each member |
+| **Flexibility**             | Less flexible (numeric by default) | More flexible (string, number, etc.) |
+| **Usage**                   | Often used for flags, simple numeric values | Useful when specific strings or other values are needed |
+
+
